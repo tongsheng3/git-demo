@@ -1,2 +1,3 @@
 another file
-conflict line
+This is a conflict line
+
