@@ -58,8 +58,8 @@ def kuang(path, save_path, xbs):
     xbs:字母的区域信息
     '''
     
-    if os.path.exists(path) == False:
-        os.makedirs(path)
+    if os.path.exists(save_path) == False:
+        os.makedirs(save_path)
     
     for i in xbs.keys():
         orign = cv.imread(path+i)
